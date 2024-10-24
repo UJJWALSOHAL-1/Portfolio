@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            border: 3px solid ;
+            height: 400px;
+            width: 320px;
+            padding: 10px;
+            margin: 10% 25% 30% 25%;
+        }
+        .two{
+            border: 2px ;
+            border-radius: 15px;
+            padding: 20px;
+            
+        }
+        table{
+            border: 2px double;
+            width:280px ;
+            text-align: center;
+            padding: 10px;
+            height: 300px;
+        }
+        caption{
+            border: 2px solid;
+            border-radius: 8px;
+            font-style: normal;
+            font-weight: bold;
+            margin: 0px -10px 10px -10px;
+            padding: 15px;
+            /* margin-bottom: 10%; */
+        }
+        th{
+            border: 2px solid;
+            height:40px;
+            background-color: blue;
+            
+        }
+        td{
+            border-left: 3px solid;
+            border-right: 3px solid;
+        }
+        th:hover{
+            color: magenta;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="two">
+            
+            <table>
+                <caption>Marks Table</caption>
+                <thead>
+
+                
+                    <tr class="three">
+                        <th>
+                            student
+                        </th>
+                        <th>
+                            Maths
+                        </th>
+                        <th colspan="2">
+                            Physics
+                        </th>
+                        <th</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="four">
+                        <td>name</td>
+                        <td>54</td>
+                        <td>32</td>
+                        <td>23</td>
+                    </tr>
+                    <tr class="five">
+                        <td>name</td>
+                        <td>54</td>
+                        <td>32</td>
+                        <td>23</td>
+                    </tr>
+                    <tr class="six">
+                        <td>name</td>
+                        <td>54</td>
+                        <td>32</td>
+                        <td>23</td>
+                    </tr>
+                    <tr class="seven">
+                        <td>name</td>
+                        <td>162</td>
+                        <td>98</td>
+                        <td>81</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
